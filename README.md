@@ -24,15 +24,15 @@ mvn tomcat7:run-war
 
 5) Find the below code snippet for the configuration and usage of @Secured annotation in method level,
 
-       @Secured("ROLE_USER")
-     	 int placeOrder(TechnologyDetails order);
+     	  @Secured("ROLE_USER")
+     	  int placeOrder(TechnologyDetails order);
 
-	     @Secured("ROLE_ADMIN")
-	     List<TechnologyDetails> getOrderList();
+    	  @Secured("ROLE_ADMIN")
+     	  List<TechnologyDetails> getOrderList();
       
       
  6)  You can also configure the multiple role access to same function as below,
             
-      @Secured({"ROLE_USER","ROLE_ADMIN"})
+         @Secured({"ROLE_USER","ROLE_ADMIN"})
       
       
