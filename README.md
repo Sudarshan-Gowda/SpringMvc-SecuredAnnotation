@@ -1,2 +1,2 @@
 # SpringMvc-SecuredAnnotation
-Method Security with Secured Annotations
+Method Security with @Secured Annotations
